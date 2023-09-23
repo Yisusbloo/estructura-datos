@@ -89,4 +89,4 @@ class Cola:
                 return current_node.value
             previous_node = current_node
             current_node = current_node.next
-        return None
+        return None 

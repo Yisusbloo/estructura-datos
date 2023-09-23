@@ -1,5 +1,11 @@
+# Para correr el servidor: uvicorn server:app --reload
+# se debe instalar uvicorn: pip install uvicorn
+# se debe instalar FastAPI: pip install fastapi
+
 from fastapi import FastAPI
 from paquete.cola import Cola
+from pydantic import BaseModel
+from typing import Union
 
 app = FastAPI()
 cola = Cola()
